@@ -1,0 +1,60 @@
+/* Custom Styles for Carpentry Service */
+
+/* Background for header jumbotron */
+.back-image {
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Main heading text */
+.mainHeading h3 {
+  font-size: 2rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.mainHeading p {
+  font-size: 1.2rem;
+  color: #f8f9fa;
+}
+
+/* Navbar custom */
+.custom-nav .nav-link {
+  font-weight: bold;
+  color: white !important;
+}
+
+.custom-nav .nav-link:hover {
+  color: #ffc107 !important;
+  text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+  font-size: 0.9rem;
+}
+
+.fi-color i {
+  color: #f8f9fa;
+  transition: 0.3s;
+}
+
+.fi-color i:hover {
+  color: #dc3545;
+}
+
+/* Services images */
+#Services img {
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+#Services img:hover {
+  transform: scale(1.05);
+}
